@@ -1,0 +1,13 @@
+{
+  "definitions": {
+    "Contract": {
+      "properties": {
+        "buyer": {
+          "title": "Buyer",
+          "description": "The entity whose budget will be used to purchase the goods or services specified in this contract. This may be different from the procuring agency who may be specified in the tender section.",
+          "$ref": "#/definitions/OrganizationReference"
+        }
+      }
+    }
+  }
+}

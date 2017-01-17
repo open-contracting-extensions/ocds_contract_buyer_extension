@@ -1,0 +1,1 @@
+{"name":"ocds_upgrade_382a","desription":"This extension exists the stage the proposal in #382 to add a ```buyer``` property to the ```contract``` section.\n\nThis extension depends on the [v1.1 update to organization handling](https://github.com/open-contracting/ocds_extension_parties)"}
