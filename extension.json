@@ -1,1 +1,5 @@
-{"name":"ocds_upgrade_382a","desription":"This extension exists the stage the proposal in #382 to add a ```buyer``` property to the ```contract``` section.\n\nThis extension depends on the [v1.1 update to organization handling](https://github.com/open-contracting/ocds_extension_parties)"}
+{
+    "description": "In some cases, a single contracting process involves multiple buyers (for example, a framework that different organisations can buy from). In these cases, the multiple buyers extension can be used to specify a distinct buyer for each contract. ",
+    "name": "Multiple buyers - contract level",
+    "compatibility": ">=1.1.0",
+}

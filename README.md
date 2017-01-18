@@ -1,18 +1,10 @@
-This extension exists to the stage the proposal in #382 to add a ```buyer``` property to the ```contract``` section.
-
-This extension depends on the [v1.1 update to organization handling](https://github.com/open-contracting/ocds_extension_parties)
-
 # Contract level buyer information
 
 ## Background
 
-The ```buyer``` section of an OCDS release is used to reference the entry in the ```parties``` section with the organization details of the buyer for the contracting process.
+The core OCDS schema provides space for a single ```buyer``` to be described for each contracting process. The buyer is defined as the organisations whose funds are directly used for the purchase of the goods, works or services described in the contract. 
 
-A single ```buyer``` is specified for each contracting process and this buyer is associated with all contracts resulting from the contracting process.
-
-## Providing information on buyers per contract
-
-Some OCDS implementations include types of contracting process, for example framework agreements, which result in multiple contracts with each contract signed by a different buyer.
+However, some forms of contracting process, such as framework agreements, may result in multiple contracts, with each contract signed by a different buyer.
 
 This extension provides a way to provide ```buyer``` information on a per contract basis.
 
@@ -27,7 +19,7 @@ This extension adds a ```buyer``` property to the ```contract``` section of OCDS
 
 ## Dependencies
 
-This extension depends on the [v1.1 update to organization handling](https://github.com/open-contracting/ocds_extension_parties) which introduced the ```parties``` section and the ```organizationReference``` object.
+This extension is only valid from OCDS Version 1.1, as it makes use of the updated organisation reference approach. 
 
 ## Example
 
