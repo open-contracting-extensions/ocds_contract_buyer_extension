@@ -2,7 +2,7 @@
 
 ## Background
 
-The core OCDS schema provides space for a single ```buyer``` to be described for each contracting process. The buyer is defined as the organisations whose funds are directly used for the purchase of the goods, works or services described in the contract. 
+The core OCDS schema provides space for a single ```buyer``` to be described for each contracting process. The buyer is defined as the organizations whose funds are directly used for the purchase of the goods, works or services described in the contract. 
 
 However, some forms of contracting process, such as framework agreements, may result in multiple contracts, with each contract signed by a different buyer.
 
@@ -19,7 +19,7 @@ This extension adds a ```buyer``` property to the ```contract``` section of OCDS
 
 ## Dependencies
 
-This extension is only valid from OCDS Version 1.1, as it makes use of the updated organisation reference approach. 
+This extension is only valid from OCDS Version 1.1, as it makes use of the updated organization reference approach. 
 
 ## Example
 
@@ -44,4 +44,4 @@ This extension is only valid from OCDS Version 1.1, as it makes use of the updat
 
 ## Todo
 
-* Update documentation once the nomenclature of the parties extension is finalised.
+* Update documentation once the nomenclature of the parties extension is finalized.
