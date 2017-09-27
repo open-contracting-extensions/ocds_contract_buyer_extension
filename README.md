@@ -42,10 +42,6 @@ This extension is only valid from OCDS Version 1.1, as it makes use of the updat
 ]
 ```
 
-## Todo
-
-* Update documentation once the nomenclature of the parties extension is finalized.
-
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
