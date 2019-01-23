@@ -6,7 +6,7 @@
     "en": "In some cases, a single contracting process involves multiple buyers (for example, a framework that different organizations can buy from). In these cases, the multiple buyers extension can be used to specify a distinct buyer for each contract. "
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting/ocds_multiple_buyers_extension"
+    "en": "https://extensions.open-contracting.org/en/extensions/contract_buyer/"
   },
   "compatibility": [
     "1.1"
