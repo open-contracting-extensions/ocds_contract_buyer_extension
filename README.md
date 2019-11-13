@@ -24,22 +24,24 @@ This extension is only valid from OCDS Version 1.1, as it makes use of the updat
 ## Example
 
 ```json
-"contracts": [
-  {
-    "id": "001",
-    "buyer": {
-      "name": "Example Department of Transport",
-      "id": "GB-GOV-00000000"
+{
+  "contracts": [
+    {
+      "id": "001",
+      "buyer": {
+        "name": "Example Department of Transport",
+        "id": "GB-GOV-00000000"
+      }
+    },
+    {
+      "id": "002",
+      "buyer": {
+        "name": "Example Department of Education",
+        "id": "GB-GOV-12345678"
+      }
     }
-  },
-  {
-    "id": "002",
-    "buyer": {
-      "name": "Example Department of Education",
-      "id": "GB-GOV-12345678"
-    }
-  }
-]
+  ]
+}
 ```
 
 ## Issues
