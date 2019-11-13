@@ -27,14 +27,16 @@ This extension is only valid from OCDS Version 1.1, as it makes use of the updat
 {
   "contracts": [
     {
-      "id": "001",
+      "id": "1",
+      "awardID": "1",
       "buyer": {
         "name": "Example Department of Transport",
         "id": "GB-GOV-00000000"
       }
     },
     {
-      "id": "002",
+      "id": "2",
+      "awardID": "2",
       "buyer": {
         "name": "Example Department of Education",
         "id": "GB-GOV-12345678"
