@@ -10,9 +10,9 @@ This extension provides a way to provide `buyer` information on a per contract b
 
 ## Extension fields
 
-This extension adds a `buyer` property to the `contract` section of OCDS.
+This extension adds a `buyer` property to the `contracts` section of OCDS.
 
-`contract.buyer` is an `OrganizationReference` consisting of the following fields:
+`contracts.buyer` is an `OrganizationReference` consisting of the following fields:
 
 * `name` - The name of the party being referenced. This must match the name of an entry in the `parties` section.
 * `id` - The id of the party being referenced. This must match the id of an entry in the `parties` section.
