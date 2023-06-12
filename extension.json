@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "Multiple buyers - contract level"
+    "en": "Multiple buyers"
   },
   "description": {
     "en": "In some cases, a single contracting process involves multiple buyers (for example, a framework that different organizations can buy from). In these cases, the multiple buyers extension can be used to specify a distinct buyer for each contract. "
