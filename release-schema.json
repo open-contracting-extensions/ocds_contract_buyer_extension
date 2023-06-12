@@ -4,13 +4,12 @@
       "properties": {
         "buyers": {
           "title": "Buyers",
-          "description": "The entities whose budgets will be used to purchase the goods, services or works specified in this particular award. When the multiple buyer extension is used, a buyer must be specified here **unless** the buyer for this award is the same as the overall buyer specified at the release level.",
+          "description": "The organizations whose budgets will be used to purchase the goods, services or works specified in this particular award. When the multiple buyer extension is used, a buyer must be specified here **unless** the buyer for this award is the same as the overall buyer specified at the release level.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
           },
-          "uniqueItems": true,
-          "minItems": 1
+          "uniqueItems": true
         }
       }
     },
@@ -18,7 +17,7 @@
       "properties": {
         "buyer": {
           "title": "Buyer",
-          "description": "The organization whose budget will be used to purchase the goods or services specified in this particular contract. When the contract buyer extension is used, a buyer must be specified here **unless** the buyer for this contract is the same as the overall buyer specified at the release level.",
+          "description": "The organization whose budget will be used to purchase the goods, services or works specified in this particular contract. When the multiple buyer extension is used, a buyer must be specified here **unless** the buyer for this contract is the same as the overall buyer specified at the release level.",
           "$ref": "#/definitions/OrganizationReference"
         }
       }
