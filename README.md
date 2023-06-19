@@ -12,7 +12,7 @@ In the European Union, this extension's fields correspond to [eForms OPT-300-Con
 
 ### Contracts
 
-2 contracts are issued with a different buyer for each.
+Two contracts are issued with a different buyer for each.
 
 ```json
 {
@@ -39,7 +39,7 @@ In the European Union, this extension's fields correspond to [eForms OPT-300-Con
 
 ### Awards
 
-1 award is issued with 2 buyers.
+One award is issued with two buyers.
 
 ```json
 {
