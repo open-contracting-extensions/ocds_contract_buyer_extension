@@ -1,10 +1,24 @@
 {
   "definitions": {
+    "Award": {
+      "properties": {
+        "buyers": {
+          "title": "Buyers",
+          "description": "The organizations aiming to conclude a contract with the suppliers or to use the goods, services or works resulting from the contract, if not identical to the buyers for the contracting process.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrganizationReference"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      }
+    },
     "Contract": {
       "properties": {
         "buyer": {
           "title": "Buyer",
-          "description": "The organization whose budget will be used to purchase the goods or services specified in this particular contract. When the contract buyer extension is used, a buyer must be specified here **unless** the buyer for this contract is the same as the overall buyer specified at the release level.",
+          "description": "The organization aiming to conclude a contract with the suppliers or to use the goods, services or works resulting from the contract, if not identical to the buyer for the contracting process.",
           "$ref": "#/definitions/OrganizationReference"
         }
       }
