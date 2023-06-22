@@ -63,12 +63,12 @@ One award is issued with two buyers.
 }
 ```
 
-## Issues
-
-Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
-
 ## Changelog
 
 ### 2023-04-12
 
 * Add `awards.buyers` field.
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
