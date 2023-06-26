@@ -6,7 +6,7 @@ OCDS indicates the (lead) buyer in a contracting process with the `buyer` field.
 
 However, in some cases, for a given award, a subset of the buyers decide on the supplier and sign the contract. **Only use this extension in such cases.**
 
-## Legal Context
+## Legal context
 
 In the European Union, this extension's fields correspond to [eForms OPT-300-Contract-Signatory](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/).
 
